@@ -1,0 +1,157 @@
+:root{
+  --primary: #0B65C6;
+  --secondary: #EEF1F6;
+  --tertiary: #0e1133;
+  --lightBlue: #E1F6FE;
+  --lightPink: #FDEEDC;
+  --lightGreen: #E1FDE2; 
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("./assets/fonts/Manrope-VariableFont_wght.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+}
+
+.banner {
+  background: url("./assets/banner.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner02 {
+  background: url("./assets/banner02.svg");
+  background-color: #0b65c6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.banner03 {
+  background: url("./assets/banner03.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.banner04 {
+  background: url("./assets/banner04.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.custom-btn {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: #fff;
+    width: fit-content;
+    padding: 0.5rem .5rem;
+
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-text p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .7rem;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 8px;
+}
+
+.btn-text p:nth-child(2){
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.section-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 80%;
+}
+
+
+.white-text{
+  color: #fff;
+}
+
+.black-text{
+  color: var(--tertiary);
+}
+
+.text-right{
+  text-align: right;
+}
+
+.bg-primary{
+  background-color: var(--primary);
+}
+
+.bg-white{
+  background-color: #fff;
+}
+
+
+
+
+
+.fadeLeftMini {
+  animation: fadeLeftMini 1s;
+  animation-fill-mode: both;
+}
+
+.fadeRightMini {
+  animation: fadeRightMini 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeLeftMini {
+  0% {
+    opacity: 0;
+    transform: translate3d(-40%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeRightMini {
+  0% {
+    opacity: 0;
+    transform: translate3d(40%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
