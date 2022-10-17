@@ -3,7 +3,7 @@ import assets from "../assets";
 
 const Button = () => {
   return (
-    <div className="custom-btn">
+    <div className="custom-btn" onClick={()=> window.open("https://expo.dev/@emmanuelhln/crypto-app?serviceType=classic&distribution=expo-go")}>
       <div className="icon">
         <img src={assets.expo} alt="expo_icon" />
       </div>

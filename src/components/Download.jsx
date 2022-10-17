@@ -9,7 +9,7 @@ const Download = () => {
           <h1 className="text-h1 black-text">Download the Source Code</h1>
           <p className="text-p black-text">Get the full source code on GitHub</p>
         </div>
-        <button className="download-btn">Source Code</button>
+        <button className="download-btn" onClick={()=> window.open("https://github.com/manelHln/crypto-app")}>Source Code</button>
         <div className="center">
           <img 
             src={assets.scene}
