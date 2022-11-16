@@ -1,5 +1,5 @@
 import React from 'react';
-import assets from '../assets';
+import {scene} from '../assets';
 
 const Download = () => {
   return (
@@ -11,8 +11,8 @@ const Download = () => {
         </div>
         <button className="download-btn" onClick={()=> window.open("https://github.com/manelHln/crypto-app")}>Source Code</button>
         <div className="center">
-          <img 
-            src={assets.scene}
+          <img
+            src={scene}
             alt="download_png"
             className="download-img"
           />

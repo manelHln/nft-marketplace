@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import SectionContainer from "./components/SectionContainer";
-import assets from "./assets";
+import {homeHero, homeCards, feature, mockup} from "./assets";
 import Feature from "./components/Feature";
 import Download from "./components/Download";
 
@@ -12,7 +12,7 @@ const App = () => {
         desc="Buy, store, collect nfts, exchange and earn crypto. Join 25 million+ people using ProfNef MarketPlace."
         title="Your own store of Nifty NFTs.Start selling growing."
         showBtn
-        mockupImg={assets.homeHero}
+        mockupImg={homeHero}
         banner="banner"
       />
       <SectionContainer
@@ -20,20 +20,20 @@ const App = () => {
         desc={
           "Experience the buttery UI or ProfNef NFT Marketplace. Smooth constant colors of a fluent UI design."
         }
-        mockupImg={assets.homeCards}
+        mockupImg={homeCards}
         reverse
       />
       <Feature />
       <SectionContainer
         title="Deployment"
         desc="ProNef is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
-        mockupImg={assets.feature}
+        mockupImg={feature}
         reverse
       />
-      <SectionContainer 
+      <SectionContainer
         title="Creative way to showcase the store"
         desc="The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT."
-        mockupImg={assets.mockup}
+        mockupImg={mockup}
         banner="banner02"
       />
       <Download />

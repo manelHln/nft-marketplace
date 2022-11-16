@@ -8,7 +8,7 @@ import react from "./react.png";
 import scene from "./scene.webp";
 import mockup from "./mockup.webp";
 
-export default {
+export {
   homeHero,
   homeCards,
   feature,

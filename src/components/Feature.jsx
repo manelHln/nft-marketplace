@@ -1,5 +1,5 @@
 import React from "react";
-import assets from "../assets";
+import {react, javascript} from "../assets";
 
 
 const FeatureCard = ({ iconUrl, iconText }) =>  (
@@ -21,8 +21,8 @@ const Feature = () => {
           </p>
         </div>
         <div className="feature-cards">
-          <FeatureCard iconUrl={assets.react} iconText="React Native" />
-          <FeatureCard iconUrl={assets.javascript} iconText="JavaScript" />
+          <FeatureCard iconUrl={react} iconText="React Native" />
+          <FeatureCard iconUrl={javascript} iconText="JavaScript" />
         </div>
       </div>
     </div>
